@@ -20,6 +20,11 @@ group :assets do
 	gem 'coffee-rails', '~> 4.0.0'
 end
 
+group :production do
+	gem 'pg', '0.12.2'
+end
+
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
